@@ -1,0 +1,5 @@
+width: 1133 #地图宽度
+height: 510 #地图高度
+resolution: 0.1 #地图分辨率
+position_x: -50.9118 #地图中心点x
+position_y: -11.5625 #地图中心点y

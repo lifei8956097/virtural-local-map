@@ -1,0 +1,8 @@
+
+2dMap.tar : 包含二维地图文件、地图描述信息。
+
+----------------------------------------------
+
+使用当前地图进行自驾
+
+1、将当前地图 normal.pcd 文件替换 /opt/selfDrive/ros/shared/lego_loam/map/normal.pcd 文件即可。

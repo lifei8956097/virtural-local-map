@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<launch>
+    	<node name="virtual_local_map" pkg="virtual_local_map" type="virtual_local_map" output="screen">
+        <param name="HZ" value="10" type="int"/>
+		<param name="test" value="true" type="bool"/>
+        <param name="radius" value="10" type="double"/>
+		<param name="frame_id" value="map" type="string"/>
+		<param name="paramPath" value="/home/nana/catkin_ws/src/virtual_local_map/data/map.png" type="string"/>
+		<rosparam command="load" file="/home/nana/catkin_ws/src/virtual_local_map/data/map.yaml" />
+	</node>
+</launch>
